@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./Acro.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Movies</a></li>
+  </nav>
+  </ul>
+  </div>
+  </nav>
+  <figure class="figure">
+    <a class="nav-link active" aria-current="page" href="https://youtu.be/-M0RiKff3Ds">New York click Me!</a>
+    <img src="./images/london.jpg" class="figure-img img-fluid rounded" alt="">
+
+
+    <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=QA_SY4b1tNI">sydney click Me!</a>
+    <img src="./images/sydney.jpg" class="figure-img img-fluid rounded" alt="Not found">
+
+  </figure>
+
+  <div class="content">
+    <ul class="image-content">
+      <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=ljtGlHhvFE8">Tokyo Click Me!</a>
+      <img src="./images/tokyo hd.jpg" class="img-fluid" alt="Not Found">
+    </ul>
+  </div>
+
+  <h3 class="Form">Registration Form</h3>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="First name" value="Mark" required>
+      <div class="valid-feedback">
+        <span id="rishabh" class="text-danger font-weight-bold"></span>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="lastName" placeholder="Last name" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="userName">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username"
+          aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" id="city" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+        <span id="user"></span>
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">State</label>
+      <input type="text" class="form-control" id="state" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" id="zip" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="button" onclick="formData()">Submit form</button>
+  </form>
+
+  <h2 class="Login-Credientials">Login-Form</h2>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+        placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="Password" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary" type="button"onclick="formData()">Submit</button>
+  </form>
+  <script src="Acro.js"></script>
+
+</body>
+
+</html>
